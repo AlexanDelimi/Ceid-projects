@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Spirtokouto
+comment1.params=length\ width\ height\ weight
+comment1.target=Spirtokouto(double,\ double,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
