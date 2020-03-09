@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Room_Type_B
+comment1.params=
+comment1.target=Room_Type_B()
+comment2.params=maximum_capacity\ price_per_person\ price\ disc
+comment2.target=Room_Type_B(int,\ double,\ double,\ int)
+comment3.params=
+comment3.target=int\ getDiscount_per_day()
+comment4.params=discount_per_day
+comment4.target=void\ setDiscount_per_day(int)
+comment5.params=
+comment5.target=double\ pricing()
+comment6.params=cancelID
+comment6.target=boolean\ cancelation(int)
+numComments=7

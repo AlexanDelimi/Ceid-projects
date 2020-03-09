@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Room_Type_D
+comment1.params=
+comment1.target=Room_Type_D()
+comment2.params=maximum_capacity\ price_per_person\ price\ people
+comment2.target=Room_Type_D(int,\ double,\ double,\ int)
+comment3.params=
+comment3.target=int\ getMinimum_people()
+comment4.params=minimum_people
+comment4.target=void\ setMinimum_people(int)
+comment5.params=booketo
+comment5.target=boolean\ new_booking(Booking)
+comment6.params=cancelID
+comment6.target=boolean\ cancelation(int)
+numComments=7
