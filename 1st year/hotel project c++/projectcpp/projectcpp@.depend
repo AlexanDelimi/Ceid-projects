@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1496591977 source:c:\users\alexd\desktop\projectcpp@\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<string>
+	"Room.h"
+	"Booking.h"
+	"Hotel.h"
+	"Room_Type_A.h"
+	"Room_Type_B.h"
+	"Room_Type_C.h"
+	"Room_Type_D.h"
+	"Room_Type_E.h"
+
+1496307594 source:c:\users\alexd\desktop\projectcpp@\src\booking.cpp
+	"Booking.h"
+
+1496258395 c:\users\alexd\desktop\projectcpp@\include\booking.h
+	<string>
+	"Room.h"
+
+1496322685 c:\users\alexd\desktop\projectcpp@\include\room.h
+	"Booking.h"
+
+1496317571 source:c:\users\alexd\desktop\projectcpp@\src\room.cpp
+	"Room.h"
+	<iostream>
+
+1496258529 source:c:\users\alexd\desktop\projectcpp@\src\room_type_a.cpp
+	"Room_Type_A.h"
+	"Room.h"
+
+1496258496 c:\users\alexd\desktop\projectcpp@\include\room_type_a.h
+	<Room.h>
+
+1496258588 source:c:\users\alexd\desktop\projectcpp@\src\room_type_b.cpp
+	"Room_Type_B.h"
+	<iostream>
+
+1496258588 c:\users\alexd\desktop\projectcpp@\include\room_type_b.h
+	<Room_Type_A.h>
+
+1496307365 source:c:\users\alexd\desktop\projectcpp@\src\room_type_c.cpp
+	"Room_Type_C.h"
+	<iostream>
+
+1496258641 c:\users\alexd\desktop\projectcpp@\include\room_type_c.h
+	<Room.h>
+
+1496258725 source:c:\users\alexd\desktop\projectcpp@\src\room_type_d.cpp
+	"Room_Type_D.h"
+	<iostream>
+
+1496258725 c:\users\alexd\desktop\projectcpp@\include\room_type_d.h
+	<Room_Type_A.h>
+
+1496258800 source:c:\users\alexd\desktop\projectcpp@\src\room_type_e.cpp
+	"Room_Type_E.h"
+
+1496265650 c:\users\alexd\desktop\projectcpp@\include\room_type_e.h
+	<Room.h>
+
+1496322722 source:c:\users\alexd\desktop\projectcpp@\src\hotel.cpp
+	"Hotel.h"
+	<iostream>
+
+1496321869 c:\users\alexd\desktop\projectcpp@\include\hotel.h
+	"Booking.h"
+	"Room.h"
+	<vector>
+

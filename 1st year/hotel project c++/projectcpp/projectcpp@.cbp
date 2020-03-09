@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projectcpp@" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projectcpp@" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projectcpp@" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Booking.h" />
+		<Unit filename="include/Hotel.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="include/Room_Type_A.h" />
+		<Unit filename="include/Room_Type_B.h" />
+		<Unit filename="include/Room_Type_C.h" />
+		<Unit filename="include/Room_Type_D.h" />
+		<Unit filename="include/Room_Type_E.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Booking.cpp" />
+		<Unit filename="src/Hotel.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Unit filename="src/Room_Type_A.cpp" />
+		<Unit filename="src/Room_Type_B.cpp" />
+		<Unit filename="src/Room_Type_C.cpp" />
+		<Unit filename="src/Room_Type_D.cpp" />
+		<Unit filename="src/Room_Type_E.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
